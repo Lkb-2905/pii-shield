@@ -1,0 +1,39 @@
+[
+  {
+    "id": "evt-2001",
+    "pii_count": 1,
+    "pii_types": [
+      "EMPLOYEE_ID"
+    ],
+    "pii_preview": [
+      "EM******"
+    ]
+  },
+  {
+    "id": "evt-2002",
+    "pii_count": 3,
+    "pii_types": [
+      "CUSTOMER_ID",
+      "IP",
+      "PHONE"
+    ],
+    "pii_preview": [
+      "17****",
+      "17*********",
+      "CU*********"
+    ]
+  },
+  {
+    "id": "evt-2003",
+    "pii_count": 3,
+    "pii_types": [
+      "CREDIT_CARD",
+      "PHONE"
+    ],
+    "pii_preview": [
+      "51*******",
+      "05*******",
+      "51*****************"
+    ]
+  }
+]

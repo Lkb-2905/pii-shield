@@ -1,0 +1,18 @@
+[
+  {
+    "id": "evt-1001",
+    "message": "Contact: alice.dupont@example.com, tel: 06 98 76 54 32"
+  },
+  {
+    "id": "evt-1002",
+    "message": "Paiement CB 4532 0151 1283 0366, IP 10.10.10.10"
+  },
+  {
+    "id": "evt-1003",
+    "message": "IBAN FR1420041010050500013M02606 pour facture 4482"
+  },
+  {
+    "id": "evt-1004",
+    "message": "Connexion depuis 192.168.0.25 par admin@example.com"
+  }
+]

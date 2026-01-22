@@ -1,0 +1,23 @@
+{
+  "patterns": {
+    "EMPLOYEE_ID": "\\bEMP-[0-9]{4}\\b",
+    "CUSTOMER_ID": "\\bCUST-[A-Z0-9]{6}\\b"
+  },
+  "allowlist": [
+    "127.0.0.1",
+    "admin@example.com"
+  ],
+  "allowlist_regex": [
+    ".*@example.org"
+  ],
+  "policies": {
+    "EMAIL": "mask",
+    "IBAN": "remove",
+    "CREDIT_CARD": "token"
+  },
+  "weights": {
+    "EMAIL": 2,
+    "IBAN": 5,
+    "CREDIT_CARD": 6
+  }
+}
