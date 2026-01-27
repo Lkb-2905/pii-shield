@@ -1,11 +1,11 @@
 {
-  "records": 3,
-  "pii_total": 7,
+  "records": 4,
+  "pii_total": 8,
   "pii_by_type": {
-    "EMPLOYEE_ID": 1,
-    "CUSTOMER_ID": 1,
-    "IP": 1,
+    "EMAIL": 1,
+    "CREDIT_CARD": 1,
+    "IP": 2,
     "PHONE": 2,
-    "CREDIT_CARD": 1
+    "IBAN": 1
   }
 }

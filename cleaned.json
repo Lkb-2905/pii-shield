@@ -1,49 +1,41 @@
 [
   {
     "id": "evt-1001",
+    "message": "Contact: al**********************, tel: 06 98 76 54 32",
     "pii_count": 1,
     "pii_types": [
       "EMAIL"
     ],
-    "pii_preview": [
-      "al**********************"
-    ]
+    "pii_risk": 2
   },
   {
     "id": "evt-1002",
+    "message": "Paiement CB tok_5789fdc93b83, IP 10*********",
     "pii_count": 4,
     "pii_types": [
       "CREDIT_CARD",
       "IP",
       "PHONE"
     ],
-    "pii_preview": [
-      "45*******",
-      "12*******",
-      "10*********",
-      "45*****************"
-    ]
+    "pii_risk": 9
   },
   {
     "id": "evt-1003",
+    "message": "IBAN [REDACTED] pour facture 4482",
     "pii_count": 1,
     "pii_types": [
       "IBAN"
     ],
-    "pii_preview": [
-      "FR*************************"
-    ]
+    "pii_risk": 5
   },
   {
     "id": "evt-1004",
+    "message": "Connexion depuis 19********** par admin@example.com",
     "pii_count": 2,
     "pii_types": [
       "IP",
       "PHONE"
     ],
-    "pii_preview": [
-      "19*****",
-      "19**********"
-    ]
+    "pii_risk": 3
   }
 ]
