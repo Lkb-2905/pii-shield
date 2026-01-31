@@ -61,3 +61,15 @@ Detecter et anonymiser automatiquement les donnees a caractere personnel (PII) d
 - Config avancée: `--config config.json --stats stats.json`
 - Policies par type: `policies` (mask/hash/token/remove) dans `config.json`
 - Demo: `python pii_shield.py --input data.sample.json --config config.sample.json --audit audit.json --stats stats.json`
+
+### Sorties attendues
+- `cleaned.json`: donnees nettoyees
+- `audit.json`: traces des PII detectees
+- `stats.json`: stats globales (par type)
+
+### Dependances
+Voir `requirements.txt`.
+
+### Roadmap et suggestions
+- `ROADMAP.md`
+- `CODE_SUGGESTIONS.md`
